@@ -16,7 +16,8 @@ const showNintendos = async () => {
 
         let img = document.createElement("img");
         section.append(img);
-        img.src = "https://serversidejson-drse.onrender.com/" + nintendo.img;
+        //https://serversidejson-drse.onrender.com/
+        img.src = "localhost:5000" + nintendo.img;
 
         let p = document.createElement("p");
         section.append(p);
@@ -30,7 +31,7 @@ const showNintendos = async () => {
 
 const getJSON = async () => {
     try{
-        let response = await fetch("https://serversidejson-drse.onrender.com/api/nintendos");
+        let response = await fetch("localhost:5000/api/nintendos");
         return await response.json();
     } catch (error){
         console.log("error retrieving json");
