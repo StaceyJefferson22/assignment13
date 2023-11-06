@@ -17,7 +17,7 @@ const showNintendos = async () => {
         let img = document.createElement("img");
         section.append(img);
         //https://serversidejson-drse.onrender.com/
-        img.src = "https://serversidejson-drse.onrender.com" + nintendo.img;
+        img.src = "https://serversidejson-drse.onrender.com/" + nintendo.img;
 
         let p = document.createElement("p");
         section.append(p);
