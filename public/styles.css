@@ -1,0 +1,37 @@
+/*structure*/
+body{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*typographyy */
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+/*section */
+section{
+    display: inline-block;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    margin: 50px;
+    border-radius: solid black;
+    background-color: salmon;
+}
+
+/*image*/
+img{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+}
+
+
